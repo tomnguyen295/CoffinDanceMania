@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #777, rgb(15, 14, 14));
+    font-family: 'DotGothic16', sans-serif;
+    color: rgb(7, 223, 205);
+
+}
+
+header {
+    background: radial-gradient(rgb(0, 0, 0), rgb(7, 223, 205));
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 5px;
+    border: 3px, outset, gold;
+    /* background: radial-gradient(rgb(0, 0, 0), rgb(7, 223, 205)); */
+    padding: 30px;
+
+}
+
+.copyright {
+    display: block;
+    text-align: right;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: bold;
+}
+
+.instructions {
+    /* font-weight: bold; */
+    font-size: 1.25em;
+    letter-spacing: 3px;
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+.gameBorder {
+    margin: 0 auto;
+    width: 580px;
+    height: 400px;
+    border: 3px outset gold;
+    
+}
+
+.ready {
+    display: block;
+    text-align: center;
+}
+
+canvas {
+    padding: 5px;
+    /* background-color: white; */
+    border: 5px outset rgb(7, 223, 205);
+    border-radius: 12px;
+}
